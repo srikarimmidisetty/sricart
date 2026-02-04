@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: srikart-config
+  namespace: srikart-production
+data:
+  eureka-url: "http://discovery-server:8761/eureka/"
+  eureka-username: "admin"
+  eureka-password: "admin123"
