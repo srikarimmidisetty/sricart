@@ -22,4 +22,8 @@ public class InventoryService {
     public List<Vehicle> getVehiclesByType(String type) {
         return vehicleRepository.findByType(type);
     }
+    
+    public List<Vehicle> getVehiclesByBrand(String brand) {
+        return vehicleRepository.findByBrand(brand);
+    }
 }
