@@ -11,7 +11,6 @@ public class Vehicle {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
     private String brand;
     private String model;
     private String type;
@@ -20,6 +19,4 @@ public class Vehicle {
     private Integer quantity;
     private String description;
     private String imageUrl;
-    private String fuelType;  // Changed from enum to String
-    private String transmission;
 }
