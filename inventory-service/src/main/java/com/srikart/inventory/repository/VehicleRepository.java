@@ -9,5 +9,4 @@ import java.util.List;
 public interface VehicleRepository extends JpaRepository<Vehicle, Long> {
     List<Vehicle> findByType(String type);
     List<Vehicle> findByBrand(String brand);
-    List<Vehicle> findByTypeAndBrand(String type, String brand);
 }
