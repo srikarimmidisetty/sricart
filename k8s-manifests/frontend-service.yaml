@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend-service
-        image: YOUR_DOCKERHUB_USERNAME/srikart-frontend-service:latest
+        image: srikarcool1/frontend:latest
         ports:
         - containerPort: 8090
         env:
